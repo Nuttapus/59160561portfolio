@@ -129,14 +129,15 @@ footer {
 .header-container {
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
-	height: 60px;
+	height: 75px;
+	
 }
 
 .main-container {
 	clear: both;
 	overflow: auto;
 	margin: 0 auto;
-	background-image: url("../images/background.png");
+	background-image: url("../images/bgken.png");
 	height: 600px;
 	width: 100%;
 	border-bottom: 5px solid #4aaaa5;
@@ -169,7 +170,7 @@ footer {
 	float: left;
 	position: relative;
 	top: -50px;
-	width: 100%;
+	width: 108%;
 	height: 30px;
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -225,7 +226,7 @@ footer {
 	float: left;
 	margin-right: 20px;
 	width: 200px;
-	height: 200px;
+	height: 250px;
 }
 
 #contact-form {
@@ -236,4 +237,12 @@ footer {
 #project-portfolio {
 	padding: 15px;
 	height: 500px;
+}
+#zoombox{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
 }
